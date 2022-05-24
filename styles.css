@@ -639,3 +639,38 @@ section {
   width: 100%;
   height: 100%;
 }
+
+/* Footer */
+/* Footer */
+/* Footer */
+/* Footer */
+/* Footer */
+/* Footer */
+/* Footer */
+footer {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+
+.icons i {
+  color: blue;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  font-size: 12vh;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+footer img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.social-m i {
+  font-size: 8vh;
+  padding: 20px 30px;
+}
