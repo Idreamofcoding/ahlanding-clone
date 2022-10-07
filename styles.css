@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Itim", sans-serif;
-  /* font-weight: 400; */
 }
 
 body {
@@ -140,11 +139,6 @@ nav {
 
 /* landing */
 /* landing */
-/* landing */
-/* landing */
-/* landing */
-/* landing */
-
 .landing {
   display: flex;
   position: relative;
@@ -154,9 +148,7 @@ nav {
   width: 100%;
   height: 580px;
   transform: translateY(90px);
-  /* background: center center no; */
   object-fit: cover;
-  /* filter: grayscale(100%); */
   z-index: -2;
 }
 
@@ -205,13 +197,6 @@ nav {
 
 /* GALLERY */
 /* GALLERY */
-/* GALLERY */
-/* GALLERY */
-/* GALLERY */
-/* GALLERY */
-/* GALLERY */
-/* GALLERY */
-
 .grid {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -234,8 +219,6 @@ nav {
   overflow: hidden;
   color: #fff;
   line-height: 55px;
-  /* text-align: center; */
-  /* transform: translate(50%, 50%); */
 }
 
 .item1 img {
@@ -415,12 +398,7 @@ nav {
 
 
 /* slider */
-/* slider */
-/* slider */
-/* slider */
-/* slider */
-/* slider */
-/* slider */
+/* this :root colors variables are from a udemy course. not my own */
 :root {
   /* dark shades of primary color*/
   --clr-primary-1: hsl(205, 86%, 17%);
@@ -463,11 +441,6 @@ nav {
   --max-width: 1170px;
   --fixed-width: 620px;
 }
-/*
-  =============== 
-  Global Styles
-  ===============
-  */
 
 /* mycodecss */
 
@@ -486,11 +459,10 @@ nav {
 .reviews {
 }
 
-/*
-=============== 
-Slider Styles
-===============
-*/
+/* Slider Styles */
+/* Slider Styles */
+/* Slider Styles */
+
 section {
   width: 85vw;
   max-width: 1170px;
@@ -507,12 +479,12 @@ section {
   height: 250px;
   object-fit: cover;
   border: 1px solid hsl(211, 27%, 70%);
-  /* background: var(--clr-white); */
   padding: 0.25rem;
   border-radius: 20%;
-  /* box-shadow: var(--dark-shadow); */
 }
 
+/* set buttons */
+/* set buttons */
 /* set buttons */
 .btn {
   position: absolute;
@@ -576,8 +548,6 @@ section {
   width: 100%;
   height: 200px;
   object-fit: cover;
-/* -ms-transform: scale(0.5, 0.5);
--webkit-transform: scale(0.5, 0.5); */
 }
 
 .subscribe-to-newsletter form {
@@ -599,9 +569,6 @@ section {
 
 /* second section */
 /* second section */
-/* second section */
-/* second section */
-
 .second-section {
   display: flex;
   background-color: white;
@@ -620,7 +587,6 @@ section {
   text-align: left;
 }
 .second-section-left h2 {
-  /* margin-top: 20px; */
   padding-top: 40px;
   padding-bottom: 20px;
 }
@@ -644,31 +610,14 @@ section {
 /* Footer */
 /* Footer */
 /* Footer */
-/* Footer */
-/* Footer */
-/* Footer */
 footer {
   width: 100%;
-  height: 600px;
+  height: 200px;
   text-align: center;
-  background-color: blanchedalmond;
+  background-color: black;
+  color: white;
 }
 
-.icons i {
-  color: blue;
-  padding-top: 65px;
-  padding-bottom: 65px;
-  font-size: 12vh;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-
-footer img {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-}
 
 .social-m i {
   font-size: 8vh;
